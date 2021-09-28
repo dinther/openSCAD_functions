@@ -34,11 +34,11 @@ function segments(r=1) = $fn>0?($fn>=3?$fn:3):ceil(max(min(360/$fa,abs(r)*2*PI/$
 //      return[0]   2D point list forming a polyline representing the ellipseArc.
 //      return[1]   2D point which represents the position of the ellipse center point.
 function ellipseCenter(p1=[], p2=[], rx, ry, angle=0, long=false, ccw=false)= let(
-P = [[cos(angle), sin(angle)], [-sin(angle), cos(angle)]] * ((p1-p2)*0.5),
+P = [[cos(-angle), sin(-angle)], [-sin(-angle), cos(-angle)]] * ((p1-p2)*0.5),
 x = P[0], y = P[1], a =  ((x * x) / (rx * rx) ) + ( (y * y) / (ry * ry) ),
 rx = a > 1? (sqrt(a) * abs(rx)) : abs(rx), ry = a > 1? (sqrt(a) * abs(ry)) : abs(ry),
 co = (long == ccw? 1 : -1) * sqrt(( (rx*rx*ry*ry) - (rx*rx*y*y) - (ry*ry*x*x) ) / ( (rx*rx*y*y) + (ry*ry*x*x) )),
-C = ([[ cos(angle), -sin(angle)],[sin(angle), cos(angle)]] * [rx*y/ry, -ry*x/rx] * co) + ((p1+p2)*0.5)) C;
+C = ([[ cos(-angle), -sin(-angle)],[sin(-angle), cos(-angle)]] * [rx*y/ry, -ry*x/rx] * co) + ((p1+p2)*0.5)) C;
 
 
 //  function ellipseArc(p1, p2, rx, ry, angle, long, ccw)
@@ -62,8 +62,8 @@ function ellipseArc(p1=[], p2=[], rx, ry, angle=0, long=false, ccw=false) = rx==
    
     pc = ellipseCenter(p2,p1,rx,ry,angle, long, ccw),
     
-    m = [[cos(-angle), -sin(-angle)],[sin(-angle), cos(-angle)]],
-    nm = [[cos(angle), -sin(angle)],[sin(angle), cos(angle)]],
+    m = [[cos(angle), -sin(angle)],[sin(angle), cos(angle)]],
+    nm = [[cos(-angle), -sin(-angle)],[sin(-angle), cos(-angle)]],
     v1 = (p1-pc) * nm, v2 = (p2-pc) * nm,
     a1 = (v1[1]<0? 180 : 0)+ atan2(v1[0]/v1[1],rx/ry),
     a2 = (v2[1]<0? 180 : 0)+ atan2(v2[0]/v2[1],rx/ry),
