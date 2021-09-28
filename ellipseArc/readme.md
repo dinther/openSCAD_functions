@@ -31,7 +31,7 @@ rx = 80;
 ry = 140;
 p1 = [-50,0];
 p2 = [40,-100];
-angle = -20;
+angle = 20;
 long=false;
 ccw = false;
 
