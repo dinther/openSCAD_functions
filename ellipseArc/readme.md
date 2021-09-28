@@ -17,7 +17,7 @@ Produces a list of 2D points that approximates the arc segment required to from 
 |return[1]|2D point|2D point which represents the position of the ellipse center point.|
 
 ### screenshot of demo code<br>
-![image](https://user-images.githubusercontent.com/1192916/135033650-7bdb51ff-f7d6-4a1a-baa2-92049f40edf1.png)
+https://user-images.githubusercontent.com/1192916/135073287-828f0539-6259-4723-a153-ddf592404a4a.mp4
 
 ### example code:
 
