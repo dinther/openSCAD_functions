@@ -55,7 +55,6 @@ C = ([[ cos(-angle), -sin(-angle)],[sin(-angle), cos(-angle)]] * [rx*y/ry, -ry*x
 //  return      List with two values.
 //      return[0]   2D point list forming a polyline representing the ellipseArc.
 //      return[1]   2D point which represents the position of the ellipse center point.
-
 function ellipseArc(p1=[], p2=[], rx, ry, angle=0, long=false, ccw=false) = rx==0||ry==0? [p1,p2] : let(
     d = norm(p2-p1),
     e = assert(rx*2>=d, str("Radius:",rx," is too small for distance:",d)),
