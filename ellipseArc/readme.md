@@ -32,7 +32,7 @@ ry = 140;
 p1 = [-50,0];
 p2 = [40,-100];
 angle = 20;
-long=false;
+long = false;
 ccw = false;
 
 data = ellipseArc(p1, p2, rx, ry, angle, long, ccw);
