@@ -1,3 +1,6 @@
+//  ellipseArc Demo part of openSCAD functions
+//  https://github.com/dinther/openSCAD_functions
+
 include <ellipseArc.scad>
 
 //  Play with these values in the customizer panel
