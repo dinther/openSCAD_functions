@@ -28,15 +28,7 @@ module polyline(points, width = 2, closed=false) {
     for(i = [0:len(points)-2]) hull(){ translate(points[i]) circle(d=width,$fn=16); translate(points[i+1]) circle(d=width); }
 }
 
-rx = 80;
-ry = 140;
-p1 = [-50,0];
-p2 = [40,-100];
-angle = 20;
-long = false;
-ccw = false;
-
-data = ellipseArc(p1, p2, rx, ry, angle, long, ccw);
+data = ellipseArc([-50,0], [40,-100], 80, 140, 20, false, false);
 color("yellow") polyline(data[0]);
 echo(center_of_ellipse_is=data[1]);
 ```
