@@ -16,7 +16,7 @@ Produces a list of 2D points that approximates the arc segment required to from 
 |return[0]|list|2D point list forming a polyline representing the ellipseArc.|
 |return[1]|2D point|2D point which represents the position of the ellipse center point.|
 
-### screenshot of demo code<br>
+### video of demo code<br>
 https://user-images.githubusercontent.com/1192916/135073287-828f0539-6259-4723-a153-ddf592404a4a.mp4
 
 ### example code:
