@@ -13,7 +13,8 @@ Make the radius negative to flip the curve.
 |return|list|List of 2D points with fillet applied.
 
 ### screenshot of demo code<br>
-![image](https://user-images.githubusercontent.com/1192916/135736777-bcc9f928-07c4-4c8b-8664-122900cbba77.png)
+![image](https://user-images.githubusercontent.com/1192916/135737569-1e169386-b912-43ce-b7ba-ae0826fb9578.png)
+
 
 ### example code:
 
