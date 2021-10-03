@@ -1,13 +1,15 @@
 # openSCAD_functions
 Powerful standalone functions. Each kept in a separate standalone code unit and well documented with demo.
+Helper functions are copied into each stand-alone code unit as required.
 
 There are fantastic super powerful all encompassing libraries out there for openSCAD such as BOSL2 or dotSCAD and many more. you can check out the [openSCAD.org](https://openscad.org/libraries.html) website for a more complete list.
 
 The problem with big libraries is that they are optimized to do everything and therefore if you share your creation it will be dependent on the version of the entire library. Well BOSL2 currently requires 2.4MB of data in 129 files.
 
-I like self contained independent units a lot. One file that does everything. Yes it duplicates code but that doesn't worry me.
+Personally I prefer less dependencies and keep code contained in the same file unit as much as possible. One file that does everything. Yes it duplicates code but cut and paste code into your own project at your hearts content. That's what it is for.
 
 So, if you are stuck for that one routine, this might be a place where you can find it.
+I only just started building this repository. Love to hear your suggestions for improvement or receive routines that you find absolutely magic.
 
 Each function is kept in a separate folder which contains the openSCAD file with the function, a demo file and a readme.
 ### For example: how to fit a ellipse segment between two points.<br>
