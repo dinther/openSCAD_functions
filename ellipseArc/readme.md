@@ -1,4 +1,4 @@
-# ellipseArc(p1, p2 rx, ry, angle, long, ccw)
+# function ellipseArc(p1, p2 rx, ry, angle, long, ccw)
 
 Produces a list of 2D points that approximates the arc segment required to from p1 to p2.
 
