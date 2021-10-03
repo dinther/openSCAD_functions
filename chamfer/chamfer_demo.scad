@@ -3,7 +3,7 @@
 
 include <chamfer.scad>
 
-pts = [[0,0,0],[10,0,0],[10,10,0]];
+pts = [[0,0],[10,0],[10,10]];
 linear_extrude(1) polygon(pts);
 
 chamfer_size = 3;
