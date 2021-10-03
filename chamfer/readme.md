@@ -1,4 +1,4 @@
-# chamfer
+# chamfer(pts, index, size)
 
 Applies a chamfer to a point in a list of 2D points.
 
@@ -17,7 +17,7 @@ Applies a chamfer to a point in a list of 2D points.
 |return[1]|2D point|2D point which represents the position of the ellipse center point.|
 
 ### screenshot of demo code<br>
-![image](https://user-images.githubusercontent.com/1192916/135033650-7bdb51ff-f7d6-4a1a-baa2-92049f40edf1.png)
+![image](https://user-images.githubusercontent.com/1192916/135736777-bcc9f928-07c4-4c8b-8664-122900cbba77.png)
 
 ### example code:
 
