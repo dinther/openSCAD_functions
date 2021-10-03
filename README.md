@@ -6,7 +6,7 @@ There are fantastic super powerful all encompassing libraries out there for open
 
 The problem with big libraries is that they are optimized to do everything and therefore if you share your creation it will be dependent on the version of the entire library. BOSL2 for example spans 129 individual files, try to isolate their string to number routine and you soon have half the library on your plate.
 
-Personally I prefer less dependencies and keep code contained in the same file unit as much as possible. One file that does everything. Yes it duplicates code but cut and paste code into your own project at your hearts content. That's what it is for.
+Personally I prefer less dependencies and keep code contained in the same file unit as much as possible. One file that does everything. Yes it duplicates code but cut and paste code into your own project at your hearts content. That's what it is for. Hence the unlicense  uhm...license. No credit required.
 
 So, if you are stuck for that one routine, this might be a place where you can find it.
 I only just started building this repository. Love to hear your suggestions for improvement or receive routines that you find absolutely magic.
