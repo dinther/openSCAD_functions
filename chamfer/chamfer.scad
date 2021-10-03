@@ -4,7 +4,7 @@
 
 //  function chamfer(pts, index, size)
 //
-//  Replaces the point indicated by index with a symetrical chamfer with size wide.
+//  Replaces the point indicated by index with a symetrical chamfer of given size.
 //  pts         List of 2D points that needs a point chamfered.
 //  index       Index to the point to which the chamfer should be applied.
 //  size        width of the chamfer.
