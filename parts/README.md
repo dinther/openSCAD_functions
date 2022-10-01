@@ -1,6 +1,6 @@
 ##  Useful parts
 
-This section contains common parts that can be useful to create enclosures, cutouts or mounting holes.
+This section contains common parts that can be useful to create enclosures, cutouts or mounting holes. Grab the stl files or openSCAD source code.
 
 ### 8 digit 7 segment max9219 display module
 ![image](https://user-images.githubusercontent.com/1192916/193407688-ba0f25fd-c86e-4427-b5e8-1674d27d48ac.png)
