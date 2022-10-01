@@ -48,7 +48,7 @@ module displayslot(slot){
     }
 }
 
-module display_board(){
+module 8_digit_7_segment_max9219_display_module(){
     t = 1.4;
     difference(){
         color("blue") cube([82.4, 15, t]);
