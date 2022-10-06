@@ -7,4 +7,10 @@ This routine is essentially doing the opposite of what a slicer program does for
 This is a very high resolution 3D model of a ship hull. By using splines to draw the 2D path outlines it is possible to really crank up the resolution.
 I strongly recommend my library pathbuilder to define the path outlines. It uses SVG syntax handling a range of spline types with ease.
 
+### usage
+```
+module buildMeshFromPointLayers(pointLayers = [], topCap=true, bottomCap=true)
+```
+
+
 
